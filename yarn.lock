@@ -2043,6 +2043,11 @@
     react-native-modal-selector "^2.1.1"
     tinycolor2 "^1.4.1"
 
+"@storybook/addon-react-native-web@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-react-native-web/-/addon-react-native-web-0.0.19.tgz#c9f39bf8c65b6a7219866308e6a1ba3d9614e153"
+  integrity sha512-uQhYPv+VD7f44Smqxa57kdPTgL+VAD6LqTG+MbmdVaWiHqdA6btbAIRoTbYU2IME98OEKTIBfwbzOgloCheAjA==
+
 "@storybook/addons@5.3.21":
   version "5.3.21"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.3.21.tgz#ee312c738c33e8c34dc11777ef93522c3c36e56a"
@@ -4536,6 +4541,11 @@ babel-plugin-react-docgen@^4.2.1:
     ast-types "^0.14.2"
     lodash "^4.17.15"
     react-docgen "^5.0.0"
+
+babel-plugin-react-native-web@^0.18.10:
+  version "0.18.10"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.18.10.tgz#028c349d1c4c929f86dc757a4e724d3e651d3424"
+  integrity sha512-2UiwS6G7XKJvpo0X5OFkzGjHGFuNx9J+DgEG8TEmm+X5S0z6EB59W11RDEZghdKzsQzVbs1jB+2VHBuVgjMTiw==
 
 babel-plugin-syntax-jsx@^6.18.0:
   version "6.18.0"
@@ -11833,14 +11843,6 @@ react-docgen@^5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
-react-dom@18.1.0:
-  version "18.1.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.1.0.tgz#7f6dd84b706408adde05e1df575b3a024d7e8a2f"
-  integrity sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==
-  dependencies:
-    loose-envify "^1.1.0"
-    scheduler "^0.22.0"
-
 react-dom@^16.8.3:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
@@ -11850,6 +11852,14 @@ react-dom@^16.8.3:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-dom@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
+  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
+  dependencies:
+    loose-envify "^1.1.0"
+    scheduler "^0.23.0"
 
 react-draggable@^4.0.3:
   version "4.4.5"
@@ -12686,6 +12696,13 @@ scheduler@^0.22.0:
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.22.0.tgz#83a5d63594edf074add9a7198b1bae76c3db01b8"
   integrity sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==
+  dependencies:
+    loose-envify "^1.1.0"
+
+scheduler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
+  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
   dependencies:
     loose-envify "^1.1.0"
 
