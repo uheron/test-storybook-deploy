@@ -1,1 +1,0 @@
-{"ast":null,"code":"require(\"./Button/Button.stories\");require(\"./Welcome/Welcome.stories\");","map":{"version":3,"sources":["/Users/uheron/IH/storybookFinalTest/storybook/stories/index.js"],"names":[],"mappings":"AAAA,mCACA","sourcesContent":["import './Button/Button.stories';\nimport './Welcome/Welcome.stories';\n"]},"metadata":{},"sourceType":"script"}
